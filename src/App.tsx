@@ -4,7 +4,7 @@ import Toggle from "./Toggle";
 
 import { DEFAULT_INITIAL_STATE } from "./constants";
 
-export function App() {
+const App = () => {
   const [isGeneralSwitchChecked, setGeneralSwitchChecked] = useState(
     DEFAULT_INITIAL_STATE
   );
@@ -25,3 +25,5 @@ export function App() {
     </>
   );
 }
+
+export default App;

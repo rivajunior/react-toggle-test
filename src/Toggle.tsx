@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState, memo } from "react";
-import { Switch } from "@material-ui/core";
+import { Switch } from "@mui/material";
 
 import ToggleText from "./ToggleText";
 
